@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>MonthlyReviews</title>
+</head>
+<body>
+    <h1>Hello, <span style="color: rgb(128, 128, 128);" th:text="${user}"></span>!</h1>
+    <p th:text="${content}"></p>
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Monthly Reviews</title>
+    <style>
+        .bordered-section {
+            border: 2px solid #000; /* Black border */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px; /* Optional: Rounded corners */
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="bordered-section">
+    <h1>Hello, <span style="color: rgb(128, 128, 128);" th:text="${user}"></span>!</h1>
+        <p th:text="${content}">This is a template paragraph.</p>
+    </div>
+</body>
+</html>
